@@ -12,7 +12,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 @AllArgsConstructor
 public class PizzaEndpoint {
 
-    private static final String NAMESPACE_URI = "htttp://www.atos.net/xml/pizzeria";
+    private static final String NAMESPACE_URI = "http://www.atos.net/xml/pizzeria";
 
     private PizzaRepository pizzaRepository;
 
